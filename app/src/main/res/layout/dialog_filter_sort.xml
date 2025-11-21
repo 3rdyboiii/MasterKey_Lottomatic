@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Sort By"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <RadioGroup
+                android:id="@+id/sortGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/combosortAsc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Combo (Ascending)"/>
+
+                <RadioButton
+                    android:id="@+id/combosortDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Combo (Descending)"/>
+
+                <RadioButton
+                    android:id="@+id/sortAsc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amount (High to Low)"/>
+
+                <RadioButton
+                    android:id="@+id/sortDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amount (Low to High)"/>
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:text="Filter By Game"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <RadioGroup
+                android:id="@+id/filterGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/filterAll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="All Games"/>
+
+                <RadioButton
+                    android:id="@+id/filterL2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LAST2 (L2/S2)"/>
+
+                <RadioButton
+                    android:id="@+id/filter3D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3D (TL3/TS3)"/>
+
+                <RadioButton
+                    android:id="@+id/filter4D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4D Game"/>
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"/>
+
+            <RadioGroup
+                android:id="@+id/drawGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Filter By Draw"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"/>
+
+                <RadioButton
+                    android:id="@+id/draw2pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2PM Draw"/>
+
+                <RadioButton
+                    android:id="@+id/draw5pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5PM Draw"/>
+
+                <RadioButton
+                    android:id="@+id/draw9pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9PM Draw"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

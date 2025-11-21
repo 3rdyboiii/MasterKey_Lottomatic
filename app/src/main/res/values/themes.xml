@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MasterKey_LuckyThree" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/red</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance</item>
+
+        <item name="android:fontFamily">@font/varelaround</item>
+
+        <item name="textAppearanceBody1">@style/CustomTextAppearance</item>
+        <item name="textAppearanceBody2">@style/CustomTextAppearance</item>
+        <item name="textAppearanceHeadline6">@style/CustomTextAppearance</item>
+        <item name="textAppearanceSubtitle1">@style/CustomTextAppearance</item>
+        <item name="textAppearanceButton">@style/CustomTextAppearance</item>
+
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="toolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+    <style name="MyToolbarStyle" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
+    </style>
+
+    <style name="Theme.MasterKey_LuckyThree" parent="Base.Theme.MasterKey_LuckyThree" />
+
+    <style name="CustomTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/varelaround</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

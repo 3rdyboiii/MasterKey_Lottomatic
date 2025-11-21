@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_agent"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Agent Gross"/>
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="Accounts"/>
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_list"
+            android:title="Entry List"/>
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_result"
+            android:icon="@drawable/ic_checklist"
+            android:title="Results"/>
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_limit"
+            android:icon="@drawable/baseline_block_24"
+            android:title="Soldout"/>
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_betlimit"
+            android:icon="@drawable/baseline_block_24"
+            android:title="Bet Limit"/>
+    </group>
+</menu>
