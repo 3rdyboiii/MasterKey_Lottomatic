@@ -4,6 +4,6 @@
         <item name="windowSplashScreenBackground">@color/white</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/avd_pcsologo</item>
         <item name="windowSplashScreenAnimationDuration">1000</item>
-        <item name="postSplashScreenTheme">@style/Theme.MasterKey_LuckyThree</item>
+        <item name="postSplashScreenTheme">@style/Theme.masterkeylottomatic</item>
     </style>
 </resources>

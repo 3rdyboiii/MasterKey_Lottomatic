@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace 'com.example.masterkey_luckythree'
+    namespace 'com.example.masterkeylottomatic'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.masterkey_luckythree"
+        applicationId "com.example.masterkeylottomatic"
         minSdk 24
         targetSdk 34
-        versionCode 2
-        versionName "1.0.2"
+        versionCode 3
+        versionName "1.0.3"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -22,6 +22,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    buildFeatures {
+        buildConfig true
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

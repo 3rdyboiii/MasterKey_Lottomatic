@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MasterKey_LuckyThree" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Base.Theme.masterkeylottomatic" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/gold</item>
         <item name="colorPrimaryDark">@color/black</item>
@@ -26,7 +26,7 @@
         <item name="navigationIconTint">@color/white</item>
     </style>
 
-    <style name="Theme.MasterKey_LuckyThree" parent="Base.Theme.MasterKey_LuckyThree" />
+    <style name="Theme.masterkeylottomatic" parent="Base.Theme.masterkeylottomatic" />
 
     <style name="CustomTextAppearance" parent="@android:style/TextAppearance">
         <item name="android:fontFamily">@font/varelaround</item>

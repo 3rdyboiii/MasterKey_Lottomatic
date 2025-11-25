@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingHorizontal="10dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.agentsTotalFragment">
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_marginHorizontal="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -19,10 +19,10 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:layout_weight="1"
+            android:layout_marginRight="10dp"
             android:textAppearance="@color/white"
             android:background="@drawable/custom_button_bg"
             app:queryHint="Search here (name/group)"
-            android:layout_marginHorizontal="4dp"
             app:iconifiedByDefault="false"/>
 
         <ImageView

@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.masterkey_luckythree",
+  "applicationId": "com.example.masterkeylottomatic",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 2,
-      "versionName": "1.0.2",
+      "versionCode": 3,
+      "versionName": "1.0.3",
       "outputFile": "app-release.apk"
     }
   ],
