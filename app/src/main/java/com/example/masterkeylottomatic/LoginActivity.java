@@ -178,7 +178,7 @@ public class LoginActivity extends AppCompatActivity {
         ExecutorService executor = Executors.newSingleThreadExecutor();
         executor.execute(() -> {
             try {
-                URL url = new URL("https://raw.githubusercontent.com/3rdyboiii/MasterKey_Lottomatic/main/updates/latest_version.json");
+                URL url = new URL("https://raw.githubusercontent.com/3rdyboiii/MasterKey_Lottomatic/master/latest_version.json");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("GET");
                 connection.connect();
